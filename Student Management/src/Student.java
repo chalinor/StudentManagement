@@ -34,9 +34,18 @@ public class Student {
 	}
 
 	public void display(){
+		if (course != null){
+			
+			System.out.println("Student Name: "+name);
+			System.out.println("Student ID: "+ID);
+			System.out.println("email: "+email);
+			System.out.println("Course: "+course);
+		}
+		else {
 		System.out.println("Student Name: "+name);
 		System.out.println("Student ID: "+ID);
 		System.out.println("email: "+email);
+		}
 	}
 	
 }
