@@ -8,6 +8,8 @@ public class MyMain {
 		
 		Student student2 = new Student("Jane Clark", "002", "jane@gmail.com");
 		student1.display();
+		
+		
 	}
 
 }

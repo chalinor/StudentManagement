@@ -4,13 +4,26 @@ public class Student {
 	private String name;
 	private String ID;
 	private String email;
+	private String course;
 	
+	public Student(String name, String iD, String email, String course) {
+		super();
+		this.name = name;
+		ID = iD;
+		this.email = email;
+		this.course = course;
+	}
+
+
+
 	public Student(String name, String iD, String email) {
 		super();
 		this.name = name;
 		ID = iD;
 		this.email = email;
 	}
+	
+	
 	
 	public String getEmail() {
 		return email;
@@ -25,4 +38,5 @@ public class Student {
 		System.out.println("Student ID: "+ID);
 		System.out.println("email: "+email);
 	}
+	
 }
