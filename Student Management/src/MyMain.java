@@ -11,6 +11,10 @@ public class MyMain {
 		
 		Student student3 = new Student("Gil Clark", "003", "gil@gmail.com", "IT7320");
 		student3.display();
+		
+		Student student4 = new Student("Ben Hook", "123", "ben@gmail.com");
+		student4.display();
+		
 	}
 
 }
